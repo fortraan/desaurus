@@ -1,10 +1,11 @@
 import praw
 import processor
+from auth import CLIENT_ID, CLIENT_SECRET, USERNAME, PASSWORD
 
-reddit = praw.Reddit(client_id = "yDXsTk2DJG0TBg",
-                     client_secret = "xshrPld57vEmDXYzXg6jOGdZJs0",
-                     username = "desaurus_bot",
-                     password = "desu396",
+reddit = praw.Reddit(client_id = CLIENT_ID,
+                     client_secret = CLIENT_SECRET,
+                     username = USERNAME,
+                     password = PASSWORD,
                      user_agent = "server:desaurus:2.0.0")
 
 with open("commonwords.txt") as f:
