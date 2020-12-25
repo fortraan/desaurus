@@ -1,4 +1,5 @@
 # Desaurus v2
+*Note: Desaurus is not active on reddit. The following is just how it would behave when running.*  
 Desaurus is a Reddit bot designed to simplify text. Summon it like so:
 
     /u/desaurus_bot [text to simplify]
